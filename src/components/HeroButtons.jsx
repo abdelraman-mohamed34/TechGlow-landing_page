@@ -1,5 +1,5 @@
 import React from 'react';
-import { useScrollTo } from '../../customHooks/useScrollTo';
+import { useScrollTo } from '../customHooks/useScrollTo';
 
 const btnList = [
     { name: 'Get Started', link: 'services', styles: 'bg-transparent border-white border-2 text-white' },

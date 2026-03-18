@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from 'framer-motion';
-import { useScrollTo } from '../../customHooks/useScrollTo';
-import { navList } from '../../data';
+import { navList } from '../data';
+import { useScrollTo } from '../customHooks/useScrollTo';
 
 function List({ isOpen, setIsOpen }) {
 

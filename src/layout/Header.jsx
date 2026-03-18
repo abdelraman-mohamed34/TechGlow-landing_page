@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
-import { useScrollTo } from '../../customHooks/useScrollTo';
-import { navList } from '../../data';
+import { useScrollTo } from '../customHooks/useScrollTo';
+import { navList } from '../data';
 
 function Header({ isOpen, setIsOpen }) {
     return (

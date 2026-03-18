@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { motion, useSpring, useTransform, useMotionValue } from "framer-motion"
 import { TiltCard } from './TiltCard';
-import { features } from '../../data';
+import { features } from '../data';
 
 function Contents() {
     return (
